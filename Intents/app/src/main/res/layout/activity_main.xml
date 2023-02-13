@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imagePhrase"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        tools:srcCompat="@drawable/phrase" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/txtIntro"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="A phrase is a small group of words that communicates a concept but isn’t a full sentence. You use phrases in your writing and your speech every day. There are lots of different kinds of phrases, some of which play a technical role in your writing and others that play a more illustrative role. No matter which role a phrase is playing, it’s achieving one simple goal: making your sentences richer by giving your words context, detail, and clarity.
+Keep in mind, not all phrases are good phrases. Sometimes, common phrases actually undermine your writing by making you look less confident or making your point less clear. Know which phrases to avoid so you don’t inadvertently weaken your writing by using them."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnNextPage"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="60dp"
+            android:backgroundTint="@color/grey"
+            android:text="Next Page" />
+    </LinearLayout>
+
+</LinearLayout>
