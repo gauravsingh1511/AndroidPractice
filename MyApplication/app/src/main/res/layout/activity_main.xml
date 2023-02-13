@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/gbu" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Gautam Buddha University (GBU) (Hindi: गौतम बुद्ध विश्वविद्यालय) is a university established
+            by the Uttar Pradesh Gautam Buddha University Act 2002 (UP Act No. 9 of 2002) and came into existence in 2008.
+            It is approved by University Grants Commission (UGC) under section 12-B and accredited by
+            National Assessment and Accreditation Council (NAAC) with B+ grade. It is located in Greater Noida,
+            Gautam Buddha Nagar in Uttar Pradesh, India.[2][3] It is one of Uttar Pradesh's state government
+            universities which commenced its first academic session in the year 2008. The university
+            campus is spread over 511 acres (207 ha) in Greater Noida and offers Bachelors, Masters and
+            Doctoral degrees in Engineering, Business Administration, Computer Applications, Biotechnology
+            and Buddhist Studies and is mainly focused on research."
+            android:textSize="15dp" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/gbu" />
+
+</LinearLayout>
